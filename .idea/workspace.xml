@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da22c359-af6a-4b48-beae-bd5180995680" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playerDatabase.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CapstoneProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CapstoneProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataScrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataScrape.py" afterDir="false" />
-    </list>
+    <list default="true" id="da22c359-af6a-4b48-beae-bd5180995680" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +71,7 @@
       <updated>1737058904981</updated>
       <workItem from="1737058906074" duration="2560000" />
       <workItem from="1737266369539" duration="652000" />
-      <workItem from="1737485127059" duration="8300000" />
+      <workItem from="1737485127059" duration="8651000" />
     </task>
     <servers />
   </component>
@@ -97,6 +90,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CapstoneProject$dataScrape.coverage" NAME="dataScrape Coverage Results" MODIFIED="1737493555848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CapstoneProject$dataScrape.coverage" NAME="dataScrape Coverage Results" MODIFIED="1737494500824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
