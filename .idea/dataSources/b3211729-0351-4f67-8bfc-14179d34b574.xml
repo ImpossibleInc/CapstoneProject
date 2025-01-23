@@ -18,161 +18,161 @@
     <package id="13" parent="1" name="fts5"/>
     <package id="14" parent="1" name="rtree"/>
     <package id="15" parent="1" name="dbstat"/>
-    <routine id="16" parent="1" name="jsonb_set">
+    <routine id="16" parent="1" name="pow">
+      <Deterministic>1</Deterministic>
+    </routine>
+    <routine id="17" parent="1" name="jsonb_set">
       <Deterministic>1</Deterministic>
       <Variadic>1</Variadic>
     </routine>
-    <routine id="17" parent="1" name="julianday">
+    <routine id="18" parent="1" name="julianday">
       <Deterministic>1</Deterministic>
       <Variadic>1</Variadic>
     </routine>
-    <routine id="18" parent="1" name="json_array">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="19" parent="1" name="json_remove">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="20" parent="1" name="json_object">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="21" parent="1" name="json_insert">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="22" parent="1" name="jsonb_array">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="23" parent="1" name="printf">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="24" parent="1" name="json_replace">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="25" parent="1" name="jsonb_remove">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="26" parent="1" name="jsonb_object">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="27" parent="1" name="jsonb_insert">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="28" parent="1" name="json_extract">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="29" parent="1" name="jsonb_replace">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="30" parent="1" name="jsonb_extract">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="31" parent="1" name="time">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="32" parent="1" name="strftime">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="33" parent="1" name="char">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="34" parent="1" name="unixepoch">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="35" parent="1" name="date">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="36" parent="1" name="concat">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="37" parent="1" name="coalesce">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="38" parent="1" name="concat_ws">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="39" parent="1" name="format">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="40" parent="1" name="datetime">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="41" parent="1" name="max">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="42" parent="1" name="min">
-      <Deterministic>1</Deterministic>
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="43" parent="1" name="lag">
+    <routine id="19" parent="1" name="group_concat">
       <FunctionType>window</FunctionType>
     </routine>
-    <routine id="44" parent="1" name="json_set">
+    <routine id="20" parent="1" name="json_array">
       <Deterministic>1</Deterministic>
       <Variadic>1</Variadic>
     </routine>
-    <routine id="45" parent="1" name="lead">
+    <routine id="21" parent="1" name="json_type">
+      <Deterministic>1</Deterministic>
+    </routine>
+    <routine id="22" parent="1" name="ntile">
       <FunctionType>window</FunctionType>
     </routine>
-    <routine id="46" parent="1" name="regexp">
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="47" parent="1" name="snippet">
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="48" parent="1" name="rtreecheck">
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="49" parent="1" name="highlight">
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="50" parent="1" name="bm25">
-      <Variadic>1</Variadic>
-    </routine>
-    <routine id="51" parent="1" name="matchinfo"/>
-    <routine id="52" parent="1" name="charindex"/>
-    <routine id="53" parent="1" name="fts3_tokenizer"/>
-    <routine id="54" parent="1" name="pow">
+    <routine id="23" parent="1" name="nullif">
       <Deterministic>1</Deterministic>
     </routine>
-    <routine id="55" parent="1" name="group_concat">
+    <routine id="24" parent="1" name="json_remove">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="25" parent="1" name="sqlite_compileoption_get"/>
+    <routine id="26" parent="1" name="json_object">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="27" parent="1" name="json_insert">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="28" parent="1" name="json_valid">
+      <Deterministic>1</Deterministic>
+    </routine>
+    <routine id="29" parent="1" name="jsonb_array">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="30" parent="1" name="printf">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="31" parent="1" name="json_replace">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="32" parent="1" name="jsonb_remove">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="33" parent="1" name="jsonb_object">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="34" parent="1" name="jsonb_insert">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="35" parent="1" name="json_extract">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="36" parent="1" name="jsonb_replace">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="37" parent="1" name="jsonb_extract">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="38" parent="1" name="time">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="39" parent="1" name="strftime">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="40" parent="1" name="char">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="41" parent="1" name="unixepoch">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="42" parent="1" name="date">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="43" parent="1" name="concat">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="44" parent="1" name="coalesce">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="45" parent="1" name="concat_ws">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="46" parent="1" name="format">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="47" parent="1" name="datetime">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="48" parent="1" name="max">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="49" parent="1" name="min">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="50" parent="1" name="json_set">
+      <Deterministic>1</Deterministic>
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="51" parent="1" name="lag">
       <FunctionType>window</FunctionType>
     </routine>
-    <routine id="56" parent="1" name="json_type">
-      <Deterministic>1</Deterministic>
-    </routine>
-    <routine id="57" parent="1" name="ntile">
+    <routine id="52" parent="1" name="lead">
       <FunctionType>window</FunctionType>
     </routine>
-    <routine id="58" parent="1" name="nullif">
-      <Deterministic>1</Deterministic>
+    <routine id="53" parent="1" name="regexp">
+      <Variadic>1</Variadic>
     </routine>
-    <routine id="59" parent="1" name="sqlite_compileoption_get"/>
-    <routine id="60" parent="1" name="json_valid">
-      <Deterministic>1</Deterministic>
+    <routine id="54" parent="1" name="snippet">
+      <Variadic>1</Variadic>
     </routine>
+    <routine id="55" parent="1" name="rtreecheck">
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="56" parent="1" name="highlight">
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="57" parent="1" name="bm25">
+      <Variadic>1</Variadic>
+    </routine>
+    <routine id="58" parent="1" name="matchinfo"/>
+    <routine id="59" parent="1" name="charindex"/>
+    <routine id="60" parent="1" name="fts3_tokenizer"/>
     <routine id="61" parent="1" name="json_quote">
       <Deterministic>1</Deterministic>
     </routine>
@@ -499,208 +499,208 @@
     <routine id="190" parent="1" name="fts5"/>
     <schema id="191" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2025-01-22.18:53:44</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-01-23.06:57:11</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="192" parent="16">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
-    <argument id="193" parent="17">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="194" parent="18">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="195" parent="19">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="196" parent="20">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="197" parent="21">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="198" parent="22">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="199" parent="23">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="200" parent="24">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="201" parent="25">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="202" parent="26">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="203" parent="27">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="204" parent="28">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="205" parent="29">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="206" parent="30">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="207" parent="31">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="208" parent="32">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="209" parent="33">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="210" parent="34">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="211" parent="35">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="212" parent="36">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="213" parent="37">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="214" parent="38">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="215" parent="39">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="216" parent="40">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="217" parent="41">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="218" parent="42">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="219" parent="43">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="220" parent="43">
+    <argument id="193" parent="16">
       <Position>1</Position>
     </argument>
-    <argument id="221" parent="43">
+    <argument id="194" parent="16">
       <Position>2</Position>
     </argument>
-    <argument id="222" parent="43">
+    <argument id="195" parent="17">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="196" parent="18">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="197" parent="19">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="198" parent="19">
+      <Position>1</Position>
+    </argument>
+    <argument id="199" parent="19">
+      <Position>2</Position>
+    </argument>
+    <argument id="200" parent="20">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="201" parent="21">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="202" parent="21">
+      <Position>1</Position>
+    </argument>
+    <argument id="203" parent="21">
+      <Position>2</Position>
+    </argument>
+    <argument id="204" parent="22">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="205" parent="22">
+      <Position>1</Position>
+    </argument>
+    <argument id="206" parent="23">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="207" parent="23">
+      <Position>1</Position>
+    </argument>
+    <argument id="208" parent="23">
+      <Position>2</Position>
+    </argument>
+    <argument id="209" parent="24">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="210" parent="25">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="211" parent="25">
+      <Position>1</Position>
+    </argument>
+    <argument id="212" parent="26">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="213" parent="27">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="214" parent="28">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="215" parent="28">
+      <Position>1</Position>
+    </argument>
+    <argument id="216" parent="28">
+      <Position>2</Position>
+    </argument>
+    <argument id="217" parent="29">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="218" parent="30">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="219" parent="31">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="220" parent="32">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="221" parent="33">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="222" parent="34">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="223" parent="35">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="224" parent="36">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="225" parent="37">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="226" parent="38">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="227" parent="39">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="228" parent="40">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="229" parent="41">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="230" parent="42">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="231" parent="43">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="232" parent="44">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="233" parent="45">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="234" parent="46">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="235" parent="47">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="236" parent="48">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="237" parent="49">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="238" parent="50">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="239" parent="51">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="240" parent="51">
+      <Position>1</Position>
+    </argument>
+    <argument id="241" parent="51">
+      <Position>2</Position>
+    </argument>
+    <argument id="242" parent="51">
       <Position>3</Position>
     </argument>
-    <argument id="223" parent="44">
+    <argument id="243" parent="52">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
-    <argument id="224" parent="45">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="225" parent="45">
+    <argument id="244" parent="52">
       <Position>1</Position>
     </argument>
-    <argument id="226" parent="45">
+    <argument id="245" parent="52">
       <Position>2</Position>
     </argument>
-    <argument id="227" parent="45">
+    <argument id="246" parent="52">
       <Position>3</Position>
     </argument>
-    <argument id="228" parent="46">
+    <argument id="247" parent="53">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
-    <argument id="229" parent="47">
+    <argument id="248" parent="54">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
-    <argument id="230" parent="48">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="231" parent="49">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="232" parent="50">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="233" parent="51">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="234" parent="51">
-      <Position>1</Position>
-    </argument>
-    <argument id="235" parent="51">
-      <Position>2</Position>
-    </argument>
-    <argument id="236" parent="52">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="237" parent="52">
-      <Position>1</Position>
-    </argument>
-    <argument id="238" parent="52">
-      <Position>2</Position>
-    </argument>
-    <argument id="239" parent="52">
-      <Position>3</Position>
-    </argument>
-    <argument id="240" parent="53">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="241" parent="53">
-      <Position>1</Position>
-    </argument>
-    <argument id="242" parent="53">
-      <Position>2</Position>
-    </argument>
-    <argument id="243" parent="54">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="244" parent="54">
-      <Position>1</Position>
-    </argument>
-    <argument id="245" parent="54">
-      <Position>2</Position>
-    </argument>
-    <argument id="246" parent="55">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="247" parent="55">
-      <Position>1</Position>
-    </argument>
-    <argument id="248" parent="55">
-      <Position>2</Position>
-    </argument>
-    <argument id="249" parent="56">
+    <argument id="249" parent="55">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
     <argument id="250" parent="56">
-      <Position>1</Position>
-    </argument>
-    <argument id="251" parent="56">
-      <Position>2</Position>
-    </argument>
-    <argument id="252" parent="57">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
-    <argument id="253" parent="57">
+    <argument id="251" parent="57">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="252" parent="58">
+      <ArgumentDirection>R</ArgumentDirection>
+    </argument>
+    <argument id="253" parent="58">
       <Position>1</Position>
     </argument>
     <argument id="254" parent="58">
-      <ArgumentDirection>R</ArgumentDirection>
-    </argument>
-    <argument id="255" parent="58">
-      <Position>1</Position>
-    </argument>
-    <argument id="256" parent="58">
       <Position>2</Position>
     </argument>
-    <argument id="257" parent="59">
+    <argument id="255" parent="59">
       <ArgumentDirection>R</ArgumentDirection>
     </argument>
-    <argument id="258" parent="59">
+    <argument id="256" parent="59">
       <Position>1</Position>
+    </argument>
+    <argument id="257" parent="59">
+      <Position>2</Position>
+    </argument>
+    <argument id="258" parent="59">
+      <Position>3</Position>
     </argument>
     <argument id="259" parent="60">
       <ArgumentDirection>R</ArgumentDirection>
@@ -1591,138 +1591,420 @@
       <Position>1</Position>
     </argument>
     <table id="555" parent="191" name="completeStats"/>
-    <table id="556" parent="191" name="sqlite_master">
+    <table id="556" parent="191" name="completeStats_dg_tmp"/>
+    <table id="557" parent="191" name="sqlite_master">
       <System>1</System>
     </table>
-    <column id="557" parent="555" name="id">
+    <column id="558" parent="555" name="id">
       <Position>1</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="558" parent="555" name="player_id">
+    <column id="559" parent="555" name="player_id">
       <Position>2</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="559" parent="555" name="name">
+    <column id="560" parent="555" name="name">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="560" parent="555" name="position">
+    <column id="561" parent="555" name="position">
       <Position>4</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="561" parent="555" name="year">
+    <column id="562" parent="555" name="year">
       <Position>5</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="562" parent="555" name="age">
+    <column id="563" parent="555" name="age">
       <Position>6</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="563" parent="555" name="games_played">
+    <column id="564" parent="555" name="games_played">
       <Position>7</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="564" parent="555" name="games_started">
+    <column id="565" parent="555" name="games_started">
       <Position>8</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="565" parent="555" name="passing_completions">
+    <column id="566" parent="555" name="passing_completions">
       <Position>9</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="566" parent="555" name="passing_attempts">
+    <column id="567" parent="555" name="passing_attempts">
       <Position>10</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="567" parent="555" name="passing_yards">
+    <column id="568" parent="555" name="passing_yards">
       <Position>11</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="568" parent="555" name="passing_TDs">
+    <column id="569" parent="555" name="passing_TDs">
       <Position>12</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="569" parent="555" name="interceptions">
+    <column id="570" parent="555" name="interceptions">
       <Position>13</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="570" parent="555" name="rushing_attempts">
+    <column id="571" parent="555" name="rushing_attempts">
       <Position>14</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="571" parent="555" name="rushing_yards">
+    <column id="572" parent="555" name="rushing_yards">
       <Position>15</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="572" parent="555" name="yards_per_attempt">
+    <column id="573" parent="555" name="yards_per_attempt">
       <Position>16</Position>
       <StoredType>REAL|0s</StoredType>
     </column>
-    <column id="573" parent="555" name="rushing_TDs">
+    <column id="574" parent="555" name="rushing_TDs">
       <Position>17</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="574" parent="555" name="targets">
+    <column id="575" parent="555" name="targets">
       <Position>18</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="575" parent="555" name="receptions">
+    <column id="576" parent="555" name="receptions">
       <Position>19</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="576" parent="555" name="receiving_yards">
+    <column id="577" parent="555" name="receiving_yards">
       <Position>20</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="577" parent="555" name="yards_per_reception">
+    <column id="578" parent="555" name="yards_per_reception">
       <Position>21</Position>
       <StoredType>REAL|0s</StoredType>
     </column>
-    <column id="578" parent="555" name="receiving_TDs">
+    <column id="579" parent="555" name="receiving_TDs">
       <Position>22</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="579" parent="555" name="fumbles">
+    <column id="580" parent="555" name="fumbles">
       <Position>23</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="580" parent="555" name="fumbles_lost">
+    <column id="581" parent="555" name="fumbles_lost">
       <Position>24</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="581" parent="555" name="two_point_conversions">
+    <column id="582" parent="555" name="two_point_conversions">
       <Position>25</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="582" parent="555" name="two_point_passes">
+    <column id="583" parent="555" name="two_point_passes">
       <Position>26</Position>
       <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="583" parent="555" name="fantasy_points">
+    <column id="584" parent="555" name="fantasy_points">
       <Position>27</Position>
       <StoredType>REAL|0s</StoredType>
     </column>
-    <key id="584" parent="555">
+    <column id="585" parent="555" name="prev_games_played">
+      <Position>28</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="586" parent="555" name="prev_games_started">
+      <Position>29</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="587" parent="555" name="prev_passing_completions">
+      <Position>30</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="588" parent="555" name="prev_passing_attempts">
+      <Position>31</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="589" parent="555" name="prev_passing_yards">
+      <Position>32</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="590" parent="555" name="prev_passing_TDs">
+      <Position>33</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="591" parent="555" name="prev_interceptions">
+      <Position>34</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="592" parent="555" name="prev_rushing_attempts">
+      <Position>35</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="593" parent="555" name="prev_rushing_yards">
+      <Position>36</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="594" parent="555" name="prev_yards_per_attempt">
+      <Position>37</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="595" parent="555" name="prev_rushing_TDs">
+      <Position>38</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="596" parent="555" name="prev_targets">
+      <Position>39</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="597" parent="555" name="prev_receptions">
+      <Position>40</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="598" parent="555" name="prev_receiving_yards">
+      <Position>41</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="599" parent="555" name="prev_yards_per_reception">
+      <Position>42</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="600" parent="555" name="prev_receiving_TDs">
+      <Position>43</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="601" parent="555" name="prev_fumbles">
+      <Position>44</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="602" parent="555" name="prev_fumbles_lost">
+      <Position>45</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="603" parent="555" name="prev_two_point_conversions">
+      <Position>46</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="604" parent="555" name="prev_two_point_passes">
+      <Position>47</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="605" parent="555" name="prev_fantasy_points">
+      <Position>48</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <key id="606" parent="555">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="585" parent="556" name="type">
+    <column id="607" parent="556" name="id">
       <Position>1</Position>
-      <StoredType>TEXT|0s</StoredType>
+      <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="586" parent="556" name="name">
+    <column id="608" parent="556" name="player_id">
       <Position>2</Position>
-      <StoredType>TEXT|0s</StoredType>
+      <StoredType>INTEGER|0s</StoredType>
     </column>
-    <column id="587" parent="556" name="tbl_name">
+    <column id="609" parent="556" name="name">
       <Position>3</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>
-    <column id="588" parent="556" name="rootpage">
+    <column id="610" parent="556" name="position">
+      <Position>4</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="611" parent="556" name="year">
+      <Position>5</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="612" parent="556" name="age">
+      <Position>6</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="613" parent="556" name="games_played">
+      <Position>7</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="614" parent="556" name="games_started">
+      <Position>8</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="615" parent="556" name="passing_completions">
+      <Position>9</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="616" parent="556" name="passing_attempts">
+      <Position>10</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="617" parent="556" name="passing_yards">
+      <Position>11</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="618" parent="556" name="passing_TDs">
+      <Position>12</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="619" parent="556" name="interceptions">
+      <Position>13</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="620" parent="556" name="rushing_attempts">
+      <Position>14</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="621" parent="556" name="rushing_yards">
+      <Position>15</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="622" parent="556" name="yards_per_attempt">
+      <Position>16</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="623" parent="556" name="rushing_TDs">
+      <Position>17</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="624" parent="556" name="targets">
+      <Position>18</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="625" parent="556" name="receptions">
+      <Position>19</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="626" parent="556" name="receiving_yards">
+      <Position>20</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="627" parent="556" name="yards_per_reception">
+      <Position>21</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="628" parent="556" name="receiving_TDs">
+      <Position>22</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="629" parent="556" name="fumbles">
+      <Position>23</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="630" parent="556" name="fumbles_lost">
+      <Position>24</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="631" parent="556" name="two_point_conversions">
+      <Position>25</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="632" parent="556" name="two_point_passes">
+      <Position>26</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="633" parent="556" name="fantasy_points">
+      <Position>27</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="634" parent="556" name="prev_games_played">
+      <Position>28</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="635" parent="556" name="prev_games_started">
+      <Position>29</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="636" parent="556" name="prev_passing_completions">
+      <Position>30</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="637" parent="556" name="prev_passing_attempts">
+      <Position>31</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="638" parent="556" name="prev_passing_yards">
+      <Position>32</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="639" parent="556" name="prev_passing_TDs">
+      <Position>33</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="640" parent="556" name="prev_interceptions">
+      <Position>34</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="641" parent="556" name="prev_rushing_attempts">
+      <Position>35</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="642" parent="556" name="prev_rushing_yards">
+      <NotNull>1</NotNull>
+      <Position>36</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="643" parent="556" name="prev_yards_per_attempt">
+      <Position>37</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="644" parent="556" name="prev_rushing_TDs">
+      <Position>38</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="645" parent="556" name="prev_targets">
+      <Position>39</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="646" parent="556" name="prev_receptions">
+      <Position>40</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="647" parent="556" name="prev_receiving_yards">
+      <Position>41</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="648" parent="556" name="prev_yards_per_reception">
+      <Position>42</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <column id="649" parent="556" name="prev_receiving_TDs">
+      <Position>43</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="650" parent="556" name="prev_fumbles">
+      <Position>44</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="651" parent="556" name="prev_fumbles_lost">
+      <Position>45</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="652" parent="556" name="prev_two_point_conversions">
+      <Position>46</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="653" parent="556" name="prev_two_point_passes">
+      <Position>47</Position>
+      <StoredType>INTEGER|0s</StoredType>
+    </column>
+    <column id="654" parent="556" name="prev_fantasy_points">
+      <Position>48</Position>
+      <StoredType>REAL|0s</StoredType>
+    </column>
+    <key id="655" parent="556">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="656" parent="557" name="type">
+      <Position>1</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="657" parent="557" name="name">
+      <Position>2</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="658" parent="557" name="tbl_name">
+      <Position>3</Position>
+      <StoredType>TEXT|0s</StoredType>
+    </column>
+    <column id="659" parent="557" name="rootpage">
       <Position>4</Position>
       <StoredType>INT|0s</StoredType>
     </column>
-    <column id="589" parent="556" name="sql">
+    <column id="660" parent="557" name="sql">
       <Position>5</Position>
       <StoredType>TEXT|0s</StoredType>
     </column>

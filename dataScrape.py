@@ -5,7 +5,7 @@ import time
 
 from databaseManipulation import full_build
 
-seasons = [str(season) for season in range(2005,2024)]
+seasons = [str(season) for season in range(2005,2025)]
 
 fantasy_scores = pd.DataFrame()
 
