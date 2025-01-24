@@ -46,6 +46,6 @@ def stats(num1, num2):
     print('Here are the accuracy stats for the model trained from ' + str(num1) + ' and ' + str(num2) + '!\n')
     regressionModel.lm_stats()
 
-def closeDatabase():
+def close_database():
     print('\nClosing database!')
     databaseManipulation.db_close()

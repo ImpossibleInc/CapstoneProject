@@ -20,5 +20,5 @@ while True:
       else :
             print('\nInvalid option. Please try again.')
 print('\nThank you for using fantasy football machine.')
-closeDatabase()
+close_database()
 exit()
