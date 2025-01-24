@@ -1,11 +1,9 @@
 import pandas as pd
-import numpy as np
 import random
 import time
-
 from databaseManipulation import full_build
 
-seasons = [str(season) for season in range(2005,2025)]
+seasons = [str(season) for season in range(1970,2025)]
 
 fantasy_scores = pd.DataFrame()
 
