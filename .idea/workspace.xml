@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da22c359-af6a-4b48-beae-bd5180995680" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Setup/backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Setup/rankings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3211729-0351-4f67-8bfc-14179d34b574.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b3211729-0351-4f67-8bfc-14179d34b574/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataScrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/dataScrape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databaseManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/databaseManipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pairplot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plots/pairplot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerDatabase.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/playerDatabase.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regressionModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/regressionModel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +204,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CapstoneProject$rankings.coverage" NAME="rankings Coverage Results" MODIFIED="1737702110660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CapstoneProject$main.coverage" NAME="main Coverage Results" MODIFIED="1737710666377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CapstoneProject$main.coverage" NAME="main Coverage Results" MODIFIED="1737710908449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CapstoneProject$regressionModel.coverage" NAME="regressionModel Coverage Results" MODIFIED="1737700304850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CapstoneProject$databaseManipulation.coverage" NAME="databaseManipulation Coverage Results" MODIFIED="1737613314706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CapstoneProject$dataScrape.coverage" NAME="dataScrape Coverage Results" MODIFIED="1737699743976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

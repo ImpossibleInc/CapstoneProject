@@ -323,3 +323,7 @@ def create_rankings(num):
     conn.commit()
     clean_current()
     conn.commit()
+
+#shutdown
+def db_close():
+    conn.close()
