@@ -1,7 +1,4 @@
-from . import rankings, databaseManipulation
-from . import dataScrape
-from . import regressionModel
-
+from . import rankings, databaseManipulation, dataScrape, regressionModel
 
 def setup():
     print('\nPlease input the starting year you would like to use (data in README.md uses 1970, 1970 is also the earliest date possible)')

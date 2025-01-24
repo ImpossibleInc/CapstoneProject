@@ -6,6 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="da22c359-af6a-4b48-beae-bd5180995680" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/pairplot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plots/plot_2025-01-23 22-36-00_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playerDatabase.sqlite" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,30 +101,7 @@
       <recent name="$PROJECT_DIR$/Plots" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="dataScrape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CapstoneProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataScrape.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="CapstoneProject" />
       <option name="ENV_FILES" value="" />
@@ -114,6 +111,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -128,40 +126,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regressionModel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CapstoneProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regressionModel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.dataScrape" />
-      <item itemvalue="Python.regressionModel" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.regressionModel" />
-        <item itemvalue="Python.dataScrape" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -204,9 +168,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CapstoneProject$rankings.coverage" NAME="rankings Coverage Results" MODIFIED="1737702110660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CapstoneProject$main.coverage" NAME="main Coverage Results" MODIFIED="1737710908449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CapstoneProject$main.coverage" NAME="main Coverage Results" MODIFIED="1737740950124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CapstoneProject$regressionModel.coverage" NAME="regressionModel Coverage Results" MODIFIED="1737700304850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CapstoneProject$databaseManipulation.coverage" NAME="databaseManipulation Coverage Results" MODIFIED="1737613314706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CapstoneProject$dataScrape.coverage" NAME="dataScrape Coverage Results" MODIFIED="1737699743976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CapstoneProject$dataScrape.coverage" NAME="dataScrape Coverage Results" MODIFIED="1737740982397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
