@@ -170,4 +170,4 @@ Monitoring and maintaining the product once it’s live is key for ensuring smoo
    python fantasy_football_predictor.py.
    - Provide instructions for selecting a position and viewing player rankings.
 3. Viewing Visualizations:
-   - Upon running all plots will be shown within ide
+   - Upon running all plots will be shown within ide (plots for the evaluation in README are in the plots folder)
